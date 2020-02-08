@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f3f3f3"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80sp"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-black"
+        android:text="Light and Location"
+        android:textSize="24sp" />
+
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80sp"
+        android:fontFamily="sans-serif"
+        android:text="Hello World!"
+        android:textSize="24sp" />
+
+    <ImageView
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60sp"
+        android:fontFamily="sans-serif"
+        android:text="Light Sensor Value"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
