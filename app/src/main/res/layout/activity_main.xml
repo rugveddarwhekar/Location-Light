@@ -31,7 +31,7 @@
         android:text="Hello World!"
         android:textSize="24sp" />
 
-    <ImageView
+
     <TextView
         android:textColor="#000"
         android:id="@+id/light"
